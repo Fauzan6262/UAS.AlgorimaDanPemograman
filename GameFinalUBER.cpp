@@ -38,26 +38,26 @@ int arrowKey = ' ';
 
 // Map peta UBER
 int peta[lebarPeta][panjangPeta] = {
-		{9, 9, 9, 9, 9, 9, 8, 8, 8, 7, 7, 7, 8, 8, 8, 8, 7, 7, 2, 7, 9, 9, 9, 9, 9, 9},
-		{9, 9, 9, 9, 9, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 7, 5, 7, 9, 9, 9, 9, 9, 9},
-		{9, 9, 9, 1, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 1, 1, 1, 7, 1, 7, 9, 9, 9, 9, 9, 9},
-		{9, 9, 9, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 7, 1, 7, 9, 9, 9, 9, 9, 9},
-		{9, 9, 9, 10, 10, 10, 10, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 9, 9, 9, 9, 9},
-		{9, 9, 10, 10, 10, 10, 10, 10, 1, 1, 1, 1, 1, 1, 1, 7, 9, 1, 1, 1, 9, 9, 9, 9, 9, 9},
-		{9, 9, 9, 11, 11, 11, 11, 1, 1, 1, 1, 1, 1, 1, 7, 2, 9, 1, 1, 1, 9, 9, 9, 9, 9, 9},
-		{9, 9, 9, 11, 10, 10, 11, 1, 1, 1, 1, 1, 1, 1, 7, 1, 9, 1, 1, 1, 9, 9, 9, 9, 9, 9},
-		{9, 9, 9, 11, 11, 11, 11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 8, 1, 1, 7, 9, 9, 9, 9, 9},
-		{9, 9, 1, 8, 1, 4, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 8, 1, 8, 1 , 9, 9, 9, 9, 9, 9},
-		{9, 9, 1, 8, 1, 1, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 8, 8, 1, 1, 9, 9, 9, 9, 9, 9},
-		{9, 9, 1, 1, 1, 1, 1, 1, 1, 9, 9, 1, 1, 1, 8, 8, 8, 1, 1, 1, 7, 7, 7, 9, 9, 9},
-		{9, 9, 1, 1, 9, 1, 1, 1, 1, 1, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 7, 9, 9, 9, 9},
-		{9, 9, 1, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 1, 1, 1, 2, 2, 1, 9, 9, 7, 9, 9, 9},
-		{9, 9, 9, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 9, 9, 9, 9, 9, 9}, 
-		{9, 9, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 10, 10, 10, 10, 9, 9, 9, 9, 9, 9, 9},
-		{9, 9, 1, 1, 1, 1, 1, 1, 1, 1, 9, 1, 1, 1, 10, 10, 10, 10, 10, 10, 9, 9, 9, 9, 9, 9},
-		{9, 7, 2, 2, 7, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 11, 11, 11, 11, 8, 9, 9, 9, 9, 9, 9},
-		{9, 7, 2, 2, 7, 1, 1, 1, 1, 9, 2, 1, 1, 1, 1, 11, 10, 10, 11, 8, 9, 9, 9, 9, 9, 9},
-		{9, 7, 7, 7, 7, 9, 9, 9, 9, 9, 9, 9, 1, 1, 1, 11, 11, 11, 11, 8, 9, 9, 9, 9, 9, 9},
+		{9, 9, 9, 9, 9, 9, 8, 8, 8, 7, 7, 7, 8, 8, 8, 8, 7, 7, 2, 7, 9, 9, 9, 9, 7, 7},
+		{9, 9, 9, 9, 9, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 7, 5, 7, 9, 9, 9, 9, 9, 7},
+		{9, 9, 9, 1, 1, 1, 1, 1, 1, 2, 2, 1, 2, 2, 1, 1, 1, 7, 1, 7, 9, 9, 9, 7, 9, 7},
+		{9, 9, 9, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 7, 1, 7, 9, 9, 9, 7, 9, 7},
+		{9, 9, 9, 10, 10, 10, 10, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 9, 9, 9, 9, 7},
+		{9, 9, 10, 10, 10, 10, 10, 10, 1, 1, 1, 1, 1, 1, 1, 7, 9, 1, 1, 1, 9, 9, 9, 7, 9, 7},
+		{9, 9, 9, 11, 11, 11, 11, 1, 1, 1, 1, 1, 1, 1, 7, 2, 9, 1, 1, 1, 9, 9, 7, 9, 9, 7},
+		{9, 9, 9, 11, 10, 10, 11, 1, 1, 1, 1, 1, 1, 1, 7, 1, 9, 1, 1, 1, 9, 9, 7, 7, 9, 7},
+		{9, 9, 9, 11, 11, 11, 11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 8, 1, 1, 7, 9, 9, 7, 9, 7},
+		{9, 9, 1, 8, 1, 4, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 8, 1, 8, 1 , 9, 9, 9, 9, 9, 7},
+		{9, 9, 1, 8, 1, 1, 8, 1, 1, 1, 1, 1, 1, 1, 1, 1, 8, 8, 1, 1, 9, 9, 9, 7, 9, 7},
+		{9, 9, 1, 1, 1, 1, 1, 1, 1, 9, 9, 1, 1, 1, 8, 8, 8, 1, 1, 1, 7, 7, 7, 9, 9, 7},
+		{9, 9, 1, 1, 9, 1, 1, 1, 1, 1, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 7, 9, 9, 7, 7},
+		{9, 9, 1, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 9, 9, 7, 9, 9, 7},
+		{9, 9, 9, 1, 1, 1, 7, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 9, 9, 9, 9, 9, 7}, 
+		{9, 9, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 10, 10, 10, 10, 9, 9, 9, 9, 7, 9, 7},
+		{9, 9, 1, 1, 1, 1, 1, 1, 1, 1, 9, 1, 1, 1, 10, 10, 10, 10, 10, 10, 9, 9, 9, 9, 9, 7},
+		{9, 7, 2, 2, 7, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 11, 11, 11, 11, 8, 9, 9, 9, 7, 9, 7},
+		{9, 7, 2, 2, 7, 1, 1, 1, 1, 9, 2, 1, 1, 1, 1, 11, 10, 10, 11, 8, 9, 9, 9, 9, 7, 7},
+		{9, 7, 7, 7, 7, 9, 9, 9, 9, 9, 9, 9, 1, 6, 1, 11, 11, 11, 11, 8, 9, 9, 9, 9, 7, 7},
 };
 
 // Structure Player
@@ -124,7 +124,7 @@ void playerMovement(int key)
     	system("cls");
     	char	 choice;
     	cout << "\tApa anda yakin ingin keluar?" << endl;
-    	cout << "\Terima Kasih sudah mau bermain :)" << endl;
+    	cout << "\tTerima Kasih sudah mau bermain :)" << endl;
     	cout << "1. Ya \n2. tidak\n";
     	choice = getch();
 
@@ -152,7 +152,7 @@ void displayMap()
 		  	&& koordinat < 7)
 			{
 				//Player Bojan
-		  		setcolor (13);		
+		  		setcolor (7);		
 		  		cout << char (2);	
 		  		setcolor (7);
 			}
@@ -170,13 +170,14 @@ void displayMap()
 		  		cout << "~";		
 		  		setcolor (7);
 			}
-	      		else if (peta[i][j] == 3)
+				else if (peta[i][j] == 3)
 			{
-				//default
+				//udin
 		  		setcolor (13);		
-		  		cout << "&";		
+		  		cout << "UD";		
 		  		setcolor (7);
 			}
+			
 	      		else if (peta[i][j] == 4)
 			{
 				//UCOK
@@ -187,7 +188,7 @@ void displayMap()
 	      		else if (peta[i][j] == 5)
 			{
 				//UJANG
-		  		setcolor (12);		
+		  		setcolor (13);		
 		  		cout << "UJ";		
 		  		setcolor (7);
 			}
@@ -285,11 +286,13 @@ int main()
 		cout << "~ = Genangan Air\n";
 		setcolor (4);
 		cout << "UC = Enemey Ucok\n";
-		setcolor (12);
+		setcolor (4);
+		cout << "UD = Enemey Udin\n";
+		setcolor (11);
 		cout << "UJ = Enemy Ujang\n";
 		setcolor (11);
 		cout << "AS = Enemy Asep\n";
-		setcolor (13);
+		setcolor (7);
 		cout << ":) = Player\n";
 		setcolor (7);
 		cout << "-----------------------\n";
@@ -311,40 +314,82 @@ int main()
 		if (peta[playerY][playerX] == 4)
 		{
 			// Pokemon Object
-			Pokemon pokemon1;
-			pokemon1.name = "Ucok,";
-			pokemon1.hp = 450;
-			pokemon1.atk = 50;
-			pokemon1.def = 22;
+			Pokemon pokemonucok;
+			pokemonucok.name = "Ucok,";
+			pokemonucok.hp = 450;
+			pokemonucok.atk = 50;
+			pokemonucok.def = 22;
 
 			while (true)
 			{
 				system("cls");
 
 				char input_battle = ' ';
-				cout << "\t ==kau bertemu " << pokemon1.name << "Kapaksa kudu nyerang Bojan!!==" << endl;
+				cout << "\t ==kau bertemu " << pokemonucok.name << "Kapaksa kudu nyerang Bojan!!==" << endl;
 				cout << player.name << ": " << player.hp << endl;
-				cout << pokemon1.name << ": " << pokemon1.hp << endl;
+				cout << pokemonucok.name << ": " << pokemonucok.hp << endl;
 				cout << "Pencet F untuk menyerang si ucok!" << endl;
 				input_battle = getch();
 	
 				if (input_battle == 'f' || input_battle == 'F')
 				{
-					player.baseAtkPlayer(&pokemon1.hp, &pokemon1.def);
-					pokemon1.baseAtkPokemon(&player.hp, &player.def);
+					player.baseAtkPlayer(&pokemonucok.hp, &pokemonucok.def);
+					pokemonucok.baseAtkPokemon(&player.hp, &player.def);
 				}
 
-				if (pokemon1.hp <= 0)
+				if (pokemonucok.hp <= 0)
 				{
 					peta[playerY][playerX] = 1;
 					setcolor(6);
-					cout << "Bojan telah menang melawan " << pokemon1.name << endl;
+					cout << "Bojan telah menang melawan " << pokemonucok.name << endl;
 					setcolor(7);
 					
 					cout << "[LOADING Mohon tunggu sebentar]" << endl;
 					setcolor(7);
 					
-					Sleep(3000);
+					Sleep(2000);
+					system("cls");
+					break;
+				}
+			}
+		}
+		if (peta[playerY][playerX] == 3 )
+		{
+			// Pokemon Object
+			Pokemon pokemonudin;
+			pokemonudin.name = "UDIN,";
+			pokemonudin.hp = 110;
+			pokemonudin.atk = 50;
+			pokemonudin.def = 22;
+
+			while (true)
+			{
+				system("cls");
+
+				char input_battle = ' ';
+				cout << "\t ==kau bertemu " << pokemonudin.name << "Kapaksa kudu nyerang Bojan!!==" << endl;
+				cout << player.name << ": " << player.hp << endl;
+				cout << pokemonudin.name << ": " << pokemonudin.hp << endl;
+				cout << "Pencet F untuk menyerang si Udin!" << endl;
+				input_battle = getch();
+	
+				if (input_battle == 'f' || input_battle == 'F')
+				{
+					player.baseAtkPlayer(&pokemonudin.hp, &pokemonudin.def);
+					pokemonudin.baseAtkPokemon(&player.hp, &player.def);
+				}
+
+				if (pokemonudin.hp <= 0)
+				{
+					peta[playerY][playerX] = 1;
+					setcolor(6);
+					cout << "Bojan telah menang melawan " << pokemonudin.name << endl;
+					setcolor(7);
+					
+					cout << "[LOADING Mohon tunggu sebentar]" << endl;
+					setcolor(7);
+					
+					Sleep(2000);
 					system("cls");
 					break;
 				}
@@ -353,40 +398,40 @@ int main()
 		if (peta[playerY][playerX] == 5)
 		{
 			// Pokemon Object
-			Pokemon pokemon2;
-			pokemon2.name = "Ujang";
-			pokemon2.hp = 500;
-			pokemon2.atk = 225;
-			pokemon2.def = 100;
+			Pokemon pokemonujang;
+			pokemonujang.name = "Ujang";
+			pokemonujang.hp = 500;
+			pokemonujang.atk = 225;
+			pokemonujang.def = 100;
 
 			while (true)
 			{
 				system("cls");
 
 				char input_battle = ' ';
-				cout << "\t==Kau menggangu " << pokemon2.name << "Kapaksa kudu nyerang Bojan!!==" << endl;
+				cout << "\t==Kau menggangu " << pokemonujang.name << "Kapaksa kudu nyerang Bojan!!==" << endl;
 				cout << player.name << ": " << player.hp << endl;
-				cout << pokemon2.name << ": " << pokemon2.hp << endl;
+				cout << pokemonujang.name << ": " << pokemonujang.hp << endl;
 				cout << "Pencet F untuk menyerang si Ujang!" << endl;
 				input_battle = getch();
 
 				if (input_battle == 'f' || input_battle == 'F')
 				{
-					player.baseAtkPlayer(&pokemon2.hp, &pokemon2.def);
-					pokemon2.baseAtkPokemon(&player.hp, &player.def);
+					player.baseAtkPlayer(&pokemonujang.hp, &pokemonujang.def);
+					pokemonujang.baseAtkPokemon(&player.hp, &player.def);
 				}
 
 				if (player.hp <= 0)
 				{
 					peta[playerY][playerX] = 1;
 					setcolor(6);
-					cout << "Bojan telah kalah melawan " << pokemon2.name << endl;
+					cout << "Bojan telah kalah melawan " << pokemonujang.name << endl;
 					setcolor(6);
 						
 					cout << "[LOADING Mohon tunggu sebentar]" << endl;
 					setcolor(7);
 					
-					Sleep(3000);
+					Sleep(2000);
 					system("cls");
 					break;
 				}
@@ -395,40 +440,40 @@ int main()
 		if (peta[playerY][playerX] == 6)
 		{
 			// Pokemon Object
-			Pokemon pokemon3;
-			pokemon3.name = "Asep";
-			pokemon3.hp = 500;
-			pokemon3.atk = 40;
-			pokemon3.def = 15;
+			Pokemon pokemonasep;
+			pokemonasep.name = "Asep";
+			pokemonasep.hp = 500;
+			pokemonasep.atk = 40;
+			pokemonasep.def = 15;
 
 			while (true)
 			{
 				system("cls");
 
 				char input_battle = ' ';
-				cout << "\t==Kau bertemu " << pokemon3.name << ",Asep sedang membentakmu!==" << endl;
+				cout << "\t==Kau bertemu " << pokemonasep.name << ",Asep sedang membentakmu!==" << endl;
 				cout << player.name << ": " << player.hp << endl;
-				cout << pokemon3.name << ": " << pokemon3.hp << endl;
+				cout << pokemonasep.name << ": " << pokemonasep.hp << endl;
 				cout << "Pencet F untuk membentak balik!" << endl;
 				input_battle = getch();
 
 				if (input_battle == 'f' || input_battle == 'F')
 				{
-					player.baseAtkPlayer(&pokemon3.hp, &pokemon3.def);
-					pokemon3.baseAtkPokemon(&player.hp, &player.def);
+					player.baseAtkPlayer(&pokemonasep.hp, &pokemonasep.def);
+					pokemonasep.baseAtkPokemon(&player.hp, &player.def);
 				}
 
-				if (pokemon3.hp <= 0)
+				if (pokemonasep.hp <= 0)
 				{
 					peta[playerY][playerX] = 1;
 					setcolor(6);
-					cout << "Bojan menang mental dengan " << pokemon3.name << endl;
+					cout << "Bojan menang mental dengan " << pokemonasep.name << endl;
 					setcolor(7);
 					
 					cout << "[LOADING Mohon tunggu sebentar]" << endl;
 					setcolor(7);
 					
-					Sleep(3000);
+					Sleep(2000);
 					system("cls");
 					break;
 				}
@@ -454,37 +499,37 @@ int main()
 	      			if (choice == '1')
 					{
 	      				//Pokemon Object
-						Pokemon pokemon4;
-						pokemon4.name = "Ucing Hideung";
-						pokemon4.hp = 520;
-						pokemon4.atk = 30;
-						pokemon4.def = 15;
+						Pokemon pokemonucing;
+						pokemonucing.name = "Ucing Hideung";
+						pokemonucing.hp = 520;
+						pokemonucing.atk = 30;
+						pokemonucing.def = 15;
 						
 						while(true)
 						{	
 							system("cls");
 							char input_battle = ' ';
-							cout << "\t==Kau menemukan" << pokemon4.name << " Kapaksa kudu nyerang Bojan!!==" << endl;
+							cout << "\t==Kau menemukan" << pokemonucing.name << " Kapaksa kudu nyerang Bojan!!==" << endl;
 							cout << player.name << ": " << player.hp << endl;
-							cout << pokemon4.name << ": " << pokemon4.hp << endl;
+							cout << pokemonucing.name << ": " << pokemonucing.hp << endl;
 							cout << "Pencet F untuk menjinakan!" << endl;
 							input_battle = getch();
 							
 							if (input_battle == 'f' || input_battle == 'F')
 							{
-								player.baseAtkPlayer(&pokemon4.hp, &pokemon4.def);
-								pokemon4.baseAtkPokemon(&player.hp, &player.def);
+								player.baseAtkPlayer(&pokemonucing.hp, &pokemonucing.def);
+								pokemonucing.baseAtkPokemon(&player.hp, &player.def);
 							}
-							if (pokemon4.hp <= 0)
+							if (pokemonucing.hp <= 0)
 							{
 								setcolor(6);
-								cout << "Bojan telah menjinakan " << pokemon4.name << endl;
+								cout << "Bojan telah menjinakan " << pokemonucing.name << endl;
 								setcolor(7);
 								
 								cout << "[LOADING Mohon tunggu sebentar]" << endl;
 								setcolor(7);
 								
-								Sleep(3000);
+								Sleep(2000);
 								system("cls");
 								break;
 							}
