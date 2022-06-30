@@ -173,7 +173,7 @@ void displayMap()
 				else if (peta[i][j] == 3)
 			{
 				//udin
-		  		setcolor (13);		
+		  		setcolor (11);		
 		  		cout << "UD";		
 		  		setcolor (7);
 			}
@@ -286,9 +286,9 @@ int main()
 		cout << "~ = Genangan Air\n";
 		setcolor (4);
 		cout << "UC = Enemey Ucok\n";
-		setcolor (4);
-		cout << "UD = Enemey Udin\n";
 		setcolor (11);
+		cout << "UD = Enemey Udin\n";
+		setcolor (13);
 		cout << "UJ = Enemy Ujang\n";
 		setcolor (11);
 		cout << "AS = Enemy Asep\n";
