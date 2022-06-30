@@ -1,5 +1,5 @@
 # UAS.AlgorimaDanPemograman
-==============================================================================
+\t==============================================================================
 Berikut Adalah Hasil Pemograman untuk UAS Praktikum Algorima dan pemograman
 
 Nama : Mochammad Fauzan Satriawan
