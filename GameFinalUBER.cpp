@@ -61,7 +61,7 @@ int peta[lebarPeta][panjangPeta] = {
 };
 
 // Structure Player
-struct Hero
+struct Pemain
 {
 	string name;
 	int hp;
@@ -301,7 +301,7 @@ int main()
 		system("cls");
 
 		// Hero Object
-		Hero player;
+		Pemain player;
 		player.name = "Nicholas Bojan";
 		player.hp = 520;
 		player.atk = 50;
