@@ -276,6 +276,7 @@ int main()
 		// Input Keyboard dan panduan
 		cout << " \n";
 		cout << "-----------------------\n";
+		cout << "BERGERAK MENGGUNAKAN PANAH DI KEYBOARD\n";
 		setcolor (10);
 		cout << "# = Rumput\n";
 		setcolor (2);
