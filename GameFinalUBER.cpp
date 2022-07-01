@@ -5,6 +5,7 @@
 #include <conio.h>
 #include <time.h>
 #include <windows.h>
+#include <MMSystem.h>
 using namespace std;
 
 // Arrow key
@@ -154,7 +155,7 @@ void displayMap()
 			{
 				//Player Bojan
 		  		setcolor (7);		
-		  		cout << char (2);	
+		  		cout << char(1);	
 		  		setcolor (7);
 			}
 	      		else if (peta[i][j] == 1)
