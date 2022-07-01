@@ -1,4 +1,5 @@
-//Mochammad Fauzan Satriiawan
+//Mochammad Fauzan Satriawan
+//NIM : 1217050080
 //UAS Praktikum Algoritma Dan Pemograman
 #include <iostream>
 #include <conio.h>
@@ -29,7 +30,7 @@ void displayMap();
 // Fungsi Set warna
 void setcolor(unsigned short color);
 
-const int panjangPeta = 505;
+const int panjangPeta = 50;
 const int lebarPeta = 20;
 int playerX = 7;
 int playerY = 7;
@@ -125,7 +126,7 @@ void playerMovement(int key)
     	char	 choice;
     	cout << "\tApa anda yakin ingin keluar?" << endl;
     	cout << "\tTerima Kasih sudah mau bermain :)" << endl;
-    	cout << "1. Ya \n2. tidak\n";
+    	cout << "1. Ya Tentu \n2. tidak mau\n";
     	choice = getch();
 
     	if (choice == '1') {
@@ -260,6 +261,7 @@ int main()
     case 1 :
         system("cls");
         cout <<  "===   Welkam tu Game UBER!   ===\n";
+        cout <<  "===   BETA 1.0 !   ===\n";
         cout << "Insert any key : "; cin >> oke;
     while (true) 
 		
@@ -347,7 +349,7 @@ int main()
 					cout << "[LOADING Mohon tunggu sebentar]" << endl;
 					setcolor(7);
 					
-					Sleep(2000);
+					Sleep(3000);
 					system("cls");
 					break;
 				}
@@ -389,7 +391,7 @@ int main()
 					cout << "[LOADING Mohon tunggu sebentar]" << endl;
 					setcolor(7);
 					
-					Sleep(2000);
+					Sleep(3000);
 					system("cls");
 					break;
 				}
@@ -431,7 +433,7 @@ int main()
 					cout << "[LOADING Mohon tunggu sebentar]" << endl;
 					setcolor(7);
 					
-					Sleep(2000);
+					Sleep(3000);
 					system("cls");
 					break;
 				}
@@ -473,7 +475,7 @@ int main()
 					cout << "[LOADING Mohon tunggu sebentar]" << endl;
 					setcolor(7);
 					
-					Sleep(2000);
+					Sleep(3000);
 					system("cls");
 					break;
 				}
