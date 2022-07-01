@@ -8,6 +8,6 @@ NIM : 1217050080
   Game RPG Sederhana Berbasis Pokemon
 
 Mari Simak Penjelasan saya di Link Youtube :
-Coming SOON
+https://www.youtube.com/watch?v=VbyGJoBc1dA
 
 
