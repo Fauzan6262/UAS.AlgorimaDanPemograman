@@ -260,7 +260,7 @@ int main()
     switch (pil) 
     case 1 :
         system("cls");
-        cout <<  "===   Welkam tu Game UBER!   ===\n";
+        cout <<  "===   Welkam tu Gim UBER!   ===\n";
         cout <<  "===   BETA 1.0 !   ===\n";
         cout << "Insert any key : "; cin >> oke;
     while (true) 
